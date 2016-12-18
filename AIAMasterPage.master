@@ -1,0 +1,433 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AIAMasterPage.master.cs" Inherits="AIAMasterPage" %>
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+    <title>AIA | Home</title>
+    <link href="logo.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="common.css" type="text/css" />
+    <link rel="stylesheet" href="default.css" type="text/css" />
+    <link rel="stylesheet" href="default1.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="default2.css" type="text/css" />
+    <link rel="stylesheet" href="layout.css" type="text/css" />
+    <link rel="stylesheet" href="jquery.fancybox.css" type="text/css" />
+    <link rel="stylesheet" href="jquery.fancybox-buttons.css" type="text/css" />
+    <link rel="stylesheet" href="jquery.fancybox-thumbs.css" type="text/css" />
+    <link rel="stylesheet" href="template.css" type="text/css" />
+    <link rel="stylesheet" href="all-hovers.css" type="text/css" />
+    <link rel="stylesheet" href="camera.css" type="text/css" />
+    <link rel="stylesheet" href="default_icemegamenu.css" type="text/css" />
+    <link rel="stylesheet" href="default_icemegamenu-reponsive.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/d4cd01b597.js"></script>
+    <script src="plusone.js" type="text/javascript"></script>
+    <script src="ffb13be5965e8219d53c3e55bd4b8b49.js" type="text/javascript"></script>
+    <script src="55c5ed3baa98de126d3e72270cd29870.js" type="text/javascript"></script>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="jquery-noconflict.js" type="text/javascript"></script>
+    <script src="jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="caption.js" type="text/javascript"></script>
+    <script src="bootstrap.min.js" type="text/javascript"></script>
+    <script src="camera.min.js" type="text/javascript"></script>
+    <style>
+        .wrap{
+            margin: 0 auto;
+        }
+        .footer
+{
+    background: #EEEEEE;
+    padding: 2em 0;
+    margin-top: 2.2em;
+}
+
+.footer-grid
+{
+    float: left;
+    width: 25%;
+}
+
+    .footer-grid ul li:before
+    {
+        content: url(../images/marker1.png);
+        padding-right: 10px;
+        margin-bottom: 0.5em;
+        display: inline-block;
+    }
+
+    .footer-grid ul li a
+    {
+        
+        color: #777;
+        margin: 0.5em 0;
+        text-transform: uppercase;
+    }
+
+        .footer-grid ul li a:hover
+        {
+            padding-left: 10px;
+            color: #d63b37;
+        }
+
+    .footer-grid h3
+    {
+        color: #313232;
+        font-size: 1.2em;
+        padding-bottom: 0.5em;
+        text-transform: uppercase;
+    }
+    </style>
+    <script type="text/javascript">
+        jQuery(window).on('load', function () {
+            new JCaption('img.caption');
+        });
+        window.setInterval(function () { var r; try { r = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP") } catch (e) { } if (r) { r.open("GET", "./", true); r.send(null) } }, 840000);
+        jQuery(document).ready(function () {
+            jQuery('.hasTooltip').tooltip({ "html": true, "container": "body" });
+        });
+    </script>
+    <script defer async src="komento-1.8.3.static.min.js"></script>
+    <script>Komento.token = "ac979d52e5dc5def08dfc39725832be1";</script>
+    <script defer async src="59cb6950c6e25320049ba61f43b1cf28.js"></script>
+    <script type="text/javascript" src="tmlazyload.js"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $("img.lazy").lazy({
+                threshold: 0,
+                visibleOnly: false,
+                effect: "fadeIn",
+                effectTime: 500,
+                enableThrottle: true,
+                throttle: 500,
+                afterLoad: function (element) {
+                    if (typeof $.fn.BlackAndWhite_init == "function") {
+                        jQuery(element).parents(".item_img a .lazy_container").BlackAndWhite_init();
+                    }
+                    setTimeout(function () {
+                        element.parent(".lazy_container").addClass("lazyloaded");
+                    }, 500)
+                }
+            });
+        });
+    </script>
+    <!--[if lt IE 9]>
+    <script src="/joomla_52310/templates/theme3011/js/html5shiv+printshiv.js"></script>
+  <![endif]-->
+</head>
+<body class="com_content view-category task- itemid-101 body__">
+    <!--[if lt IE 8]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+      <a href="https://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+        <span class="lazy_container" style="width: px;"><span class="lazy_preloader" style="padding-top: 0%;"></span><img src="https://livedemo00.template-help.com/joomla_52310/plugins/system/tmlazyload/blank.gif" class="lazy" data-src="https://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></span>
+      </a>
+    </div>
+  <![endif]-->
+
+    <div id="wrapper">
+        <div class="wrapper-inner">
+
+            <div id="header-row">
+                <div class="row-container">
+                    <div class="container-fluid">
+                        <header>
+                            <div class="row-fluid">
+                                <!-- 
+                        <div id="logo" class="span7">
+                        <a href="https://livedemo00.template-help.com/joomla_52310/">
+                        <img src="logo.png" alt="Student Activities"  style="width: 50%;">
+                        <h1>Student Activities</h1>
+                        <span class="hightlight"></span>
+                        </a>
+                        </div>
+                        <div class="moduletable user-menu  span5"><div class="mod-menu">
+                        <ul class="nav menu ">
+                        <img src="logo.png" alt="Student Activities"  style="width: 50%;">       
+                        </ul>
+                        </div></div> -->
+
+                                <div>
+                                    <img src="logo.png" class="pull-left" style="width: 14%">
+                                    <img src="logo2.gif" class="pull-right" style="width: 30%;">
+                                </div>
+
+                            </div>
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+            <div id="navigation-row" role="navigation">
+                <div class="row-container">
+                    <div class="container-fluid">
+                        <div class="row-fluid">
+                            <div class="moduletable span12">
+                                <div class="icemegamenu">
+                                    <div class="ice-megamenu-toggle"><a data-toggle="collapse" data-target=".nav-collapse">Menu</a></div>
+                                    <div class="nav-collapse icemegamenu collapse  ">
+                                        <ul id="icemegamenu" class="meganizr mzr-slide mzr-responsive">
+                                            <li id="iceMenu_101" class="iceMenuLiLevel_1 active"><a href="https://livedemo00.template-help.com/joomla_52310/" class="icemega_active iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Home</span></a></li>
+                                            <li id="iceMenu_134" class="iceMenuLiLevel_1 mzr-drop parent"><a href="/joomla_52310/index.php/about" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About</span></a>
+                                                <ul class="icesubMenu icemodules sub_level_1" style="width: 160px">
+                                                    <li>
+                                                        <div style="float: left; width: 160px" class="iceCols">
+                                                            <ul>
+                                                                <li id="iceMenu_135" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/about/history" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AKGEC</span></a></li>
+                                                                <li id="iceMenu_136" class="iceMenuLiLevel_2 mzr-drop parent"><a href="/joomla_52310/index.php/about/team" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AIA</span></a>
+                                                                </li>
+                                                                <li id="iceMenu_138" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/about/faqs" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Faculty</span></a></li>
+                                                                <li id="iceMenu_133" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/forum" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training Faculty</span></a></li>
+                                                                <li id="iceMenu_171" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/template-settings" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Accommodation</span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="iceMenu_139" class="iceMenuLiLevel_1 mzr-drop parent"><a href="/joomla_52310/index.php/student-organizations" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Infrastructure</span></a>
+                                                
+                                            </li>
+                                            <li id="iceMenu_203" class="iceMenuLiLevel_1 mzr-drop parent"><a href="/joomla_52310/index.php/leadership-programs" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Programs</span></a>
+                                                
+                                            </li>
+                                            <li id="iceMenu_141" class="iceMenuLiLevel_1 iceMenuTitle"><a  class=" iceMenuTitle"> <span class="icemega_title icemega_nosubtitle">Industry Partners</span></a></></li>
+                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle"><a  class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Research</span></a></li>
+                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a  class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Certification</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <script>
+                                    jQuery(function ($) {
+                                        $('#icemegamenu li.parent[class^="iceMenuLiLevel"]').hover(function () {
+                                            $('#icemegamenu li.parent[class^="iceMenuLiLevel"]').not($(this).parents('li')).not($(this)).removeClass('hover');
+                                            $(this).addClass('hover').attr('data-hover', 'true')
+                                            $(this).find('>ul.icesubMenu').addClass('visible')
+                                        },
+                                        function () {
+                                            $(this).attr('data-hover', 'false')
+                                            $(this).delay(800).queue(function (n) {
+                                                if ($(this).attr('data-hover') == 'false') {
+                                                    $(this).removeClass('hover').delay(250).queue(function (n) {
+                                                        if ($(this).attr('data-hover') == 'false') {
+                                                            $(this).find('>ul.icesubMenu').removeClass('visible')
+                                                        }
+                                                        n();
+                                                    });
+                                                }
+                                                n();
+                                            })
+                                        })
+                                        var ismobile = navigator.userAgent.match(/(iPhone)|(iPod)|(iPad)|(android)|(webOS)/i)
+                                        if (ismobile && screen.width > 767) {
+                                            $('#icemegamenu').sftouchscreen();
+                                        }
+                                        $(window).load(function () {
+                                            $('#icemegamenu').parents('[id*="-row"]').scrollToFixed({ minWidth: 768 });
+                                        })
+                                    });
+                                </script>
+                                <script type="text/javascript">
+                                    jQuery(document).ready(function () {
+                                        var browser_width1 = jQuery(window).width();
+                                        jQuery("#icemegamenu").find(".icesubMenu").each(function (index) {
+                                            var offset1 = jQuery(this).offset();
+                                            var xwidth1 = offset1.left + jQuery(this).width();
+                                            if (xwidth1 >= browser_width1) {
+                                                jQuery(this).addClass("ice_righttoleft");
+                                            }
+                                        });
+
+                                    })
+                                    jQuery(window).resize(function () {
+                                        var browser_width = jQuery(window).width();
+                                        jQuery("#icemegamenu").find(".icesubMenu").removeClass("ice_righttoleft");
+                                        jQuery("#icemegamenu").find(".icesubMenu").each(function (index) {
+                                            var offset = jQuery(this).offset();
+                                            var xwidth = offset.left + jQuery(this).width();
+
+                                            if (xwidth >= browser_width) {
+                                                jQuery(this).addClass("ice_righttoleft");
+                                            }
+                                        });
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder runat="server" ID="cph1"></asp:ContentPlaceHolder>
+            </div>
+            
+        </div>
+    </div>
+   <div class="footer ">
+            <div class="wrap container">
+                <div class="footer-grid" >
+                    <h3>PARTNERS</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp; PEPPEREL & FUCHS</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Festo</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;B&R</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SIEMENS</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SMC CORPORATION</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;MITSUBISHI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid">
+                    <h3>FACULTY</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Ashiv Shah</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;D.K.Singh</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Rahul Dixit</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Ashish Gupta</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Mugdha Goel</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Aditi Chaudhary</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Ayush Srivastava</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid">
+                    <h3>FOR CLIENTS</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;FORUMS</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;CLIENTS</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;PROMOTIONS</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SIGN IN</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SCHEDULE</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid">
+                    <h3>ARCHIVE</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;JAN 2013</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;FEB 2013</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;MAR 2013</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;APR 2013</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;MAY 2013</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+   
+    <div id="modal" class="modal hide fade loginPopup">
+        <button type="button" class="close modalClose">×</button>
+        <div class="moduletable ">
+            <div class="modal-header">
+                <header>
+                    <h3 class=""><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Login</span> <span class="item_title_part1 item_title_part_even item_title_part_second_half">form</span> </h3>
+                </header>
+            </div>
+            <div class="modal-body">
+                <div class="mod-login mod-login__">
+                    <form action="/joomla_52310/index.php" method="post" id="login-form" class="form-inline">
+                        <div class="mod-login_userdata">
+                            <div id="form-login-username" class="control-group">
+                                <div class="controls">
+                                    <input id="mod-login_username16" class="inputbox mod-login_username" type="text" name="username" tabindex="1" size="18" placeholder="User name" required>
+                                </div>
+                            </div>
+                            <div id="form-login-password" class="control-group">
+                                <div class="controls">
+                                    <input id="mod-login_passwd16" class="inputbox mod-login_passwd" type="password" name="password" tabindex="2" size="18" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <label for="mod-login_remember16" class="checkbox">
+                                <input id="mod-login_remember16" class="mod-login_remember" type="checkbox" name="remember" value="yes">
+                                Remember me
+                            </label>
+                            <div class="mod-login_submit">
+                                <button type="submit" tabindex="3" name="Submit" class="btn btn-primary">Log in</button>
+                            </div>
+                            <ul class="unstyled">
+                                <li><a href="/joomla_52310/index.php/username-reminder-request" class="" title="Forgot your username?">Forgot your username?</a></li>
+                                <li><a href="/joomla_52310/index.php/password-reset" class="" title="Forgot your password?">Forgot your password?</a></li>
+                                <li><a href="/joomla_52310/index.php/user-registration">Create an account</a></li>
+                            </ul>
+                            <input type="hidden" name="option" value="com_users">
+                            <input type="hidden" name="task" value="user.login">
+                            <input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE=">
+                            <input type="hidden" name="ac979d52e5dc5def08dfc39725832be1" value="1" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-search" class="modal hide fade loginPopup">
+        <button type="button" class="close modalClose">×</button>
+        <div class="moduletable search-block">
+            <div class="modal-header">
+                <header>
+                    <h3 class=""><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Search</span> </h3>
+                </header>
+            </div>
+            <div class="modal-body">
+                <div role="search" class="mod-search mod-search__search-block">
+                    <form action="/joomla_52310/index.php" method="post" class="navbar-form">
+                        <label for="searchword" class="element-invisible">Search...</label>
+                        <input id="searchword" name="searchword" maxlength="20" class="inputbox mod-search_searchword" type="text" size="20" placeholder="Search..." required>
+                        <button class="button btn btn-primary" onclick="this.form.searchword.focus();">Search</button>
+                        <input type="hidden" name="task" value="search">
+                        <input type="hidden" name="option" value="com_search">
+                        <input type="hidden" name="Itemid" value="101">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.centerIn.js"></script>
+    <script>
+        jQuery(function ($) {
+            $('.modal.loginPopup').alwaysCenterIn(window);
+        });
+    </script>
+    <script src="jquery.modernizr.min.js"></script>
+    <script src="jquery.stellar.min.js"></script>
+    <script>
+        jQuery(function ($) {
+            if (!Modernizr.touch) {
+                $(window).load(function () {
+                    $.stellar({ responsive: true, horizontalScrolling: false });
+                });
+            }
+        });
+    </script>
+    <!-- <script src="jquery.simplr.smoothscroll.min.js"></script>
+<script>
+          jQuery(function($) {
+            if (!Modernizr.touch) {
+              $.srSmoothscroll({
+                ease: 'swing',
+                step: '20'
+                });
+
+            }
+          });
+        </script> -->
+    <script src="jquery.fancybox.pack.js"></script>
+    <script src="jquery.fancybox-buttons.js"></script>
+    <script src="jquery.fancybox-media.js"></script>
+    <script src="jquery.fancybox-thumbs.js"></script>
+    <script src="jquery.pep.js"></script>
+    <script src="jquery.vide.min.js"></script>
+    <script src="scripts.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7078796-5']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();</script>
+    <script type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "beacon": "bam.nr-data.net", "licenseKey": "72d7dcce33", "applicationID": "1388850", "transactionName": "ZV1TZ0FTVkFVWkwKXlwXcFBHW1dcG3pXDUVXVkVwXFxMQFtVVAZDHVxYQENeWUs=", "queueTime": 0, "applicationTime": 1555, "atts": "SRpQEQlJRU8=", "errorBeacon": "bam.nr-data.net", "agent": "" }</script>
+</body>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
+<!-- End Google Tag Manager -->
+</html>
+
