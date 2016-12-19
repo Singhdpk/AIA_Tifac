@@ -17,13 +17,17 @@
     <link rel="stylesheet" href="jquery.fancybox.css" type="text/css" />
     <link rel="stylesheet" href="jquery.fancybox-buttons.css" type="text/css" />
     <link rel="stylesheet" href="jquery.fancybox-thumbs.css" type="text/css" />
-    <link rel="stylesheet" href="template.css" type="text/css" />
+  <%--  <link rel="stylesheet" href="template.css" type="text/css" />--%>
     <link rel="stylesheet" href="all-hovers.css" type="text/css" />
+    <link href="customStylesheet.css" rel="stylesheet" />
+
+    <%--<link href="template.css" rel="stylesheet" />--%>
     <link rel="stylesheet" href="camera.css" type="text/css" />
     <link rel="stylesheet" href="default_icemegamenu.css" type="text/css" />
     <link rel="stylesheet" href="default_icemegamenu-reponsive.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/d4cd01b597.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet">
     <script src="plusone.js" type="text/javascript"></script>
     <script src="ffb13be5965e8219d53c3e55bd4b8b49.js" type="text/javascript"></script>
     <script src="55c5ed3baa98de126d3e72270cd29870.js" type="text/javascript"></script>
@@ -34,51 +38,10 @@
     <script src="bootstrap.min.js" type="text/javascript"></script>
     <script src="camera.min.js" type="text/javascript"></script>
     <style>
-        .wrap{
-            margin: 0 auto;
-        }
-        .footer
-{
-    background: #EEEEEE;
-    padding: 2em 0;
-    margin-top: 2.2em;
+       #navigation-row {
+    padding-bottom: 0px;
+    background-color: #54a5dd;
 }
-
-.footer-grid
-{
-    float: left;
-    width: 25%;
-}
-
-    .footer-grid ul li:before
-    {
-        content: url(../images/marker1.png);
-        padding-right: 10px;
-        margin-bottom: 0.5em;
-        display: inline-block;
-    }
-
-    .footer-grid ul li a
-    {
-        
-        color: #777;
-        margin: 0.5em 0;
-        text-transform: uppercase;
-    }
-
-        .footer-grid ul li a:hover
-        {
-            padding-left: 10px;
-            color: #d63b37;
-        }
-
-    .footer-grid h3
-    {
-        color: #313232;
-        font-size: 1.2em;
-        padding-bottom: 0.5em;
-        text-transform: uppercase;
-    }
     </style>
     <script type="text/javascript">
         jQuery(window).on('load', function () {
@@ -149,8 +112,8 @@
                         </div></div> -->
 
                                 <div>
-                                    <img src="logo.png" class="pull-left" style="width: 14%">
-                                    <img src="logo2.gif" class="pull-right" style="width: 30%;">
+                                    <img src="logo.png" class="pull-left" style="width: 8%">
+                                    <img src="logo2.gif" class="pull-right" style="width: 23%;">
                                 </div>
 
                             </div>
@@ -159,41 +122,41 @@
                 </div>
             </div>
 
-            <div id="navigation-row" role="navigation">
+            <div id="navigation-row" role="navigation" >
                 <div class="row-container">
                     <div class="container-fluid">
-                        <div class="row-fluid">
+                        <div class="row-fluid" style=" padding-bottom:10px;">
                             <div class="moduletable span12">
                                 <div class="icemegamenu">
                                     <div class="ice-megamenu-toggle"><a data-toggle="collapse" data-target=".nav-collapse">Menu</a></div>
                                     <div class="nav-collapse icemegamenu collapse  ">
                                         <ul id="icemegamenu" class="meganizr mzr-slide mzr-responsive">
                                             <li id="iceMenu_101" class="iceMenuLiLevel_1 active"><a href="https://livedemo00.template-help.com/joomla_52310/" class="icemega_active iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Home</span></a></li>
-                                            <li id="iceMenu_134" class="iceMenuLiLevel_1 mzr-drop parent"><a href="/joomla_52310/index.php/about" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About</span></a>
+                                            <li id="iceMenu_134" class="iceMenuLiLevel_1 mzr-drop parent"><a href="About.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About</span></a>
                                                 <ul class="icesubMenu icemodules sub_level_1" style="width: 160px">
                                                     <li>
                                                         <div style="float: left; width: 160px" class="iceCols">
                                                             <ul>
-                                                                <li id="iceMenu_135" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/about/history" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AKGEC</span></a></li>
+                                                                <li id="iceMenu_135" class="iceMenuLiLevel_2"><a href="About.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AKGEC</span></a></li>
                                                                 <li id="iceMenu_136" class="iceMenuLiLevel_2 mzr-drop parent"><a href="/joomla_52310/index.php/about/team" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AIA</span></a>
                                                                 </li>
-                                                                <li id="iceMenu_138" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/about/faqs" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Faculty</span></a></li>
-                                                                <li id="iceMenu_133" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/forum" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training Faculty</span></a></li>
+                                                                <li id="iceMenu_138" class="iceMenuLiLevel_2"><a href="Faculty.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Faculty</span></a></li>
+                                                                <li id="iceMenu_133" class="iceMenuLiLevel_2"><a href="" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training Facility</span></a></li>
                                                                 <li id="iceMenu_171" class="iceMenuLiLevel_2"><a href="/joomla_52310/index.php/template-settings" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Accommodation</span></a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li id="iceMenu_139" class="iceMenuLiLevel_1 mzr-drop parent"><a href="/joomla_52310/index.php/student-organizations" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Infrastructure</span></a>
+                                            <li id="iceMenu_139" class="iceMenuLiLevel_1 mzr-drop parent"><a href="" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Infrastructure</span></a>
                                                 
                                             </li>
-                                            <li id="iceMenu_203" class="iceMenuLiLevel_1 mzr-drop parent"><a href="/joomla_52310/index.php/leadership-programs" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Programs</span></a>
+                                            <li id="iceMenu_203" class="iceMenuLiLevel_1 mzr-drop parent"><a href="ProgramDetails.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Programs</span></a>
                                                 
                                             </li>
                                             <li id="iceMenu_141" class="iceMenuLiLevel_1 iceMenuTitle"><a  class=" iceMenuTitle"> <span class="icemega_title icemega_nosubtitle">Industry Partners</span></a></></li>
-                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle"><a  class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Research</span></a></li>
-                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a  class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Certification</span></a></li>
+                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle"><a href="Research.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Research</span></a></li>
+                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a href="Certification.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Certification</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -258,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="container">
                 <asp:ContentPlaceHolder runat="server" ID="cph1"></asp:ContentPlaceHolder>
             </div>
             
@@ -310,8 +273,11 @@
                     </ul>
                 </div>
                 <div class="clear"></div>
-            </div>
+            </div>            
         </div>
+        <div id="SI" class="container-fluid">
+                Powered by : Software Incubator <a href="http://silive.in/"><img src="images/si_logo.png" width="50px" height="50px"/></a>
+            </div>
    
     <div id="modal" class="modal hide fade loginPopup">
         <button type="button" class="close modalClose">×</button>

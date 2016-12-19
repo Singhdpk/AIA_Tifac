@@ -173,34 +173,38 @@
                                 <div id="maintop" class="row-fluid">
                                     <div class="moduletable list1  span2">
                                         <header>
-                                            <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Categories</span> </h3>
+                                            <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Quick Links</span> </h3>
                                         </header>
                                         <div class="mod-menu">
-                                            <ul class="nav menu ">
-                                                <li class="item-241"><a href="#">Calendar</a>
-                                                </li>
-                                                <li class="item-242"><a href="#">Last Lecture Series</a>
-                                                </li>
-                                                <li class="item-243"><a href="#">NetVUE Gathering</a>
-                                                </li>
-                                                <li class="item-244"><a href="#">Leadership Programs</a>
-                                                </li>
-                                                <li class="item-245"><a href="#">New Student Orientation</a>
-                                                </li>
-                                                <li class="item-246"><a href="/joomla_52310/index.php/student-organizations">Student Organizations</a>
-                                                </li>
-                                                <li class="item-247"><a href="/joomla_52310/index.php/about/team">Department Staff</a>
-                                                </li>
-                                                <li class="item-248"><a href="#">Leader Selection</a>
-                                                </li>
-                                                <li class="item-249"><a href="#">Sibs Weekend</a>
-                                                </li>
-                                            </ul>
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                    <img src="images/festo.png" width="250px" height="250px"/>
+                                                </div>
+                                                <div class="span6">
+                                                    <img src="images/BR.jpg"" width="250px" height="250px"/>
+                                                </div>                                               
+                                            </div><br />
+                                            <div class="row-fluid">
+                                                 <div class="span6">
+                                                    <img src="images/logo1.gif" width="250px" height="250px"/>
+                                                </div>
+                                                <div class="span6">
+                                                    <img src="images/P&F.png" width="250px" height="250px"/>
+                                                </div>
+                                            </div><br />
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                    <img src="images/RockwellAutomation.jpg" width="250px" height="250px"/>
+                                                </div>
+                                                <div class="span6">
+                                                    <img src="images/siemens.png" width="250px" height="250px"/>
+                                                </div>                                                
+                                            </div><br />
                                         </div>
                                     </div>
-                                    <div class="moduletable opportunities  span4">
+                                    <div class="moduletable opportunities  span6">
                                         <header>
-                                            <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Helping</span> <span class="item_title_part1 item_title_part_even item_title_part_first_half">students</span> <span class="item_title_part2 item_title_part_odd item_title_part_first_half">develop</span> <span class="item_title_part3 item_title_part_even item_title_part_first_half"></span><span class="item_title_part4 item_title_part_odd item_title_part_first_half">their</span> <span class="item_title_part5 item_title_part_even item_title_part_second_half">leadership</span> <span class="item_title_part6 item_title_part_odd item_title_part_second_half"></span><span class="item_title_part7 item_title_part_even item_title_part_second_half">opportunities</span> <span class="item_title_part8 item_title_part_odd item_title_part_second_half"></span></h3>
+                                            <h3 class="moduleTitle ">India’s First Competency Development Centre for Integrated Automation at AKGEC, Ghaziabad</h3>
                                         </header>
                                         <div class="mod-article-single mod-article-single__opportunities" id="module_119">
                                             <div class="item__module" id="item_84">
@@ -222,15 +226,47 @@
 }(document, "script", "facebook-jssdk"));</script>
 
                                                 <div class="item_introtext">
-                                                    <h5>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h5>
-                                                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserun</p>
-                                                    <p>Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata.</p>
-                                                    <a class="btn btn-info readmore" href="/joomla_52310/index.php/33-for-single-article/84-helping-students-develop-their-leadership-opportunities"><span>Read more</span></a>
+                                                    <p>
+                                                        AKGEC jointly with Automation Industry Association has set up India’s first Competency Development Center for Integrated Automation under AIA Campus Connect Initiative at AKGEC, Ghaziabad. The center was inaugurated on 26th June, 2014 and operational since then
+                                                    </p>
+                                                    <ul>
+                                                        <li>
+                                                            	The Centre aims to train young engineering graduates and diploma students of all engineering disciplines up to the Industry expectations and foster research in field of Integrated Automation.
+                                                        </li>
+                                                        <li>
+                                                            	The primary objective of the center is to encourage young professionals to take up this cross disciplinary field as a career of their choice and acquaint them with latest technological developments in the field of Integrated Automation.
+                                                        </li>
+                                                    </ul>
+                                                </div><br />
+                                                <div>
+                                                     <h3 class="moduleTitle ">Centre Highlights</h3>
+                                                 <div class="item_introtext">
+                                                     <p>
+                                                         <ul>
+                                                             <li>
+                                                                 	The AKGEC-AIA Training Centre is setup to produce highly skilled technical manpower in the field of Integrated Automation.
+                                                             </li>
+                                                             <li>
+                                                                 	The centre offers Basic, Advance and Expert level of training comprises of 40 Hrs/ 80 Hrs duration respectively.
+                                                             </li>
+                                                             <li>
+                                                                 	The centre has highly skilled Faculty/Engineers duly trained by Campus Connect Industry Partners to conduct these training programs at the centre.
+                                                             </li>
+                                                             <li>
+                                                                 	Industry focused Course Material Developed by Campus Connect Industry Partners
+                                                             </li>
+                                                             <li>
+                                                                 State of Art Training Centre at par with industry partner International Standard.
+                                                             </li>
+                                                         </ul>
+                                                     </p>
+                                                 </div>
                                                 </div>
+                                               
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="moduletable news  span6">
+                                    <div class="moduletable news  span4">
                                         <header>
                                             <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Latest</span> <span class="item_title_part1 item_title_part_even item_title_part_second_half">News</span> </h3>
                                         </header>

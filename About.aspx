@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AIAMasterPage.master" AutoEventWireup="true" CodeFile="About.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cph1" Runat="Server">
-    <div class="content">
+    <br />
+    <div class="content container">
         <!---start-about---->
         <div class="about">
             <div class="wrap">
@@ -13,7 +14,7 @@
 
                     </div>
                     <div class="about-right">
-                        <img src="HTML PAGES OF AIA/Images/akgec BB.jpg" alt="No Image" />
+                        <img src="images/aia.png" alt="No Image" />
                         
                     </div>
                 </div><br /><br />
@@ -39,7 +40,7 @@
                         </p>
                     </div>
                     <div class="about-right">
-                        <img src="HTML PAGES OF AIA/Images/akgec BB.jpg" alt="No Image" />
+                        <img src="images/akgec.jpg" alt="No Image" />
                     </div>
                 </div>
             </div>
