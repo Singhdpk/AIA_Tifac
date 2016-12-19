@@ -49,10 +49,10 @@
 						    	<span><label>QUERY</label></span>
 						    	<span><textarea id="txtareaUserQuery" runat="server"></textarea></span>
 						    </div>
-						 <%--  <div>
+						   <div>
 						   		<span><asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"/></span>
 						  </div>
-					    --%>
+					    
 
 				    </div>
   				</div>				

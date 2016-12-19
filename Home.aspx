@@ -178,26 +178,26 @@
                                         <div class="mod-menu">
                                             <div class="row-fluid">
                                                 <div class="span6">
-                                                    <img src="images/festo.png" width="250px" height="250px"/>
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/37-industry-sponsors-2"><img src="images/festo.png" width="250px" height="250px"/></a>
                                                 </div>
                                                 <div class="span6">
-                                                    <img src="images/BR.jpg"" width="250px" height="250px"/>
+                                                     <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/18-industry-sponsors"><img src="images/BR.jpg"" width="250px" height="250px"/></a>
                                                 </div>                                               
                                             </div><br />
                                             <div class="row-fluid">
                                                  <div class="span6">
-                                                    <img src="images/logo1.gif" width="250px" height="250px"/>
+                                                     <a href="http://www.aiacampus.in/"><img src="images/logo1.gif" width="250px" height="250px"/></a>
                                                 </div>
                                                 <div class="span6">
-                                                    <img src="images/P&F.png" width="250px" height="250px"/>
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/38-industry-sponsors-3"><img src="images/P&F.png" width="250px" height="250px"/></a>
                                                 </div>
                                             </div><br />
                                             <div class="row-fluid">
                                                 <div class="span6">
-                                                    <img src="images/RockwellAutomation.jpg" width="250px" height="250px"/>
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/77-rockwell-automation"><img src="images/RockwellAutomation.jpg" width="250px" height="250px"/></a>
                                                 </div>
                                                 <div class="span6">
-                                                    <img src="images/siemens.png" width="250px" height="250px"/>
+                                                    <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/39-industry-sponsors-4"><img src="images/siemens.png"  width="250px" height="250px"/></a>
                                                 </div>                                                
                                             </div><br />
                                         </div>
