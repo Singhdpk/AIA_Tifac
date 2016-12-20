@@ -13,8 +13,8 @@
 					   		</div>
       				</div>
       			<div class="company_address">
-				     	<h3>AKGEC-eYantra :</h3>
-                        <p><span>Address:</span>&nbsp AKGEC-eYantra</p>
+				     	<h3>AIA :</h3>
+                        <p><span>Address:</span>&nbsp Automation Industry Association</p>
 						   		<p>Embedded System and Robotics Centre<br/>
         AJAY KUMAR GARG ENGINEERING COLLEGE<br/>
         27th Km Stone, Delhi-Hapur Bypass Road,<br/>

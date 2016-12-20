@@ -200,6 +200,30 @@
                                                     <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/39-industry-sponsors-4"><img src="images/siemens.png"  width="250px" height="250px"/></a>
                                                 </div>                                                
                                             </div><br />
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="http://www.akgec-kuka.org/AKGEC-IRTC/index.html"><img src="images/360_icon.jpg" width="250px" height="250px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                     <a href="http://www.akgec.in/"><img src="images/akgeci.jpg" width="250px" height="250px"/></a>
+                                                </div>                                               
+                                            </div><br />
+                                             <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="Certification.aspx"><img src="images/Download-icon.png" width="250px" height="250px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                     <a href="http://117.55.241.58/visitor/visitorlogin.php"><img src="images/guestbook_icon.gif" width="250px" height="250px"/></a>
+                                                </div>                                               
+                                            </div><br />
+                                             <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="TraineeTestimonials.aspx"><img src="images/Testimonial-white.png" width="250px" height="250px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                     <a href="VisitorsSpeak.aspx"><img src="images/VS.png" width="250px" height="250px"/></a>
+                                                </div>                                               
+                                            </div><br />
                                         </div>
                                     </div>
                                     <div class="moduletable opportunities  span6">

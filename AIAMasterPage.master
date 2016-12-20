@@ -137,10 +137,10 @@
                                                     <li>
                                                         <div style="float: left; width: 160px" class="iceCols">
                                                             <ul>
-                                                                <li id="iceMenu_135" class="iceMenuLiLevel_2"><a href="About.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AKGEC</span></a></li>
-                                                                <li id="iceMenu_136" class="iceMenuLiLevel_2 mzr-drop parent"><a href="About.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AIA</span></a>
+                                                                <li id="iceMenu_135" class="iceMenuLiLevel_2"><a href="Akgec.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AKGEC</span></a></li>
+                                                                <li id="iceMenu_136" class="iceMenuLiLevel_2 mzr-drop parent"><a href="AIA.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About AIA</span></a>
                                                                 </li>
-                                                                <li id="iceMenu_138" class="iceMenuLiLevel_2"><a href="Faculty.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Faculty</span></a></li>
+                                                                
                                                                 <li id="iceMenu_133" class="iceMenuLiLevel_2"><a href="TrainingFacility.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training Facility</span></a></li>
                                                                 <li id="iceMenu_171" class="iceMenuLiLevel_2"><a href="Accomodation.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Accommodation</span></a></li>
                                                             </ul>
