@@ -20,41 +20,37 @@
                              margin-bottom:1%;
                          }
                      </style>
-								<div class="image group" style="margin-top:2%;
-                             margin-bottom:1%;">
+								<div class="image group" style="margin-top:2%; margin-bottom:1%;">
 									
 										<div class="grid span_2_of_3">
-                                            <a href="#"><img src="images/P&F.png" width="200px" height="50px"/></a>
-											<h3><a href="#">PEPPEREL & FUCHS</a></h3>
+                                            <div class="span3">
+                                                <a href="#"><img src="images/P&F.png"/></a>
+                                            </div>
+                                            <div class="span6">
+                                                <h3><a href="#">PEPPEREL & FUCHS</a></h3>
 											<p>Pepperl+Fuchs was founded in 1945 by Walter Pepperl and Ludwig Fuchs as a radio repair shop. By 1948, Pepperl+Fuchs was expanding into other electronic production, leading to the development of the first proximity switch in 1958 and the first transistor amplifier with an intrinsically safe control circuit. Pepperl+Fuchs is a worldwide company with its headquarters in Mannheim, Germany. Pepperl+Fuchs has progressed in the development in areas such as sensing technology, intrinsic safety, and explosion protection technology. 
-											<br /><br /><b>Contact Person</b>
-<br />
-Mr. Ravi Agarwal
-<br />
-Director
-                                            </p>
-                                            <div class="button1"><span><a href="http://www.pepperl-fuchs.in/india/hi/25.htm">Read More</a></span></div>
+											<br /><br /><b>Contact Person</b><br />Mr. Ravi Agarwal<br />Director
+                                            </p><div class="button1"><span><a href="http://www.pepperl-fuchs.in/india/hi/25.htm">Read More</a></span></div>
+                                            </div>                                          
+											
 									   </div>
 		  						 </div>
 				</div>
 				<div class="partner-leftgrids">
-								<div class="image group" style="margin-top:2%;
-                             margin-bottom:1%;">
-									
+								<div class="image group" style="margin-top:2%; margin-bottom:1%;">									
 										<div class="grid span_2_of_3">
-                                            <div class="grid images_3_of_1">
-										<a href="#"><img src="images/festo.png" width="200px" height="50px"/></a>
-									</div>
-											<h3><a href="#">Festo</a></h3>
-											<p style:"align-content">Festo was founded in 1925 by Gottlieb Stoll and Albert Fezer. Initially, it manufactured wood cutting tools and later diversified into the automation industry. Festo is a German industrial control and automation company based in Esslingen am Neckar, Germany. Festo is an engineering-driven company that sells pneumatic an electric transducers primarily to the automation industry.
-
-<br /><br />
-<b>Contact Person</b>
-<br />
-Mr. Harish Nachnani
-<br />
-National Sales Manager-Didactic</p>
-											<div class="button1"><span><a href="https://www.festo.com/cms/en-in_in/9465.htm">Read More</a></span></div>
+                                            <div class="span3">
+										        <a href="#"><img src="images/festo.png" width="200px" height="50px"/></a>
+									        </div>
+                                            <div class="span6">
+                                                <h3><a href="#">Festo</a></h3>
+											    <p style:"align-content">Festo was founded in 1925 by Gottlieb Stoll and Albert Fezer. Initially,
+                                                 it manufactured wood cutting tools and later diversified into the automation industry. Festo is a German industrial control and 
+                                                automation company based in Esslingen am Neckar, Germany. Festo is an engineering-driven company that sells pneumatic an electric transducers 
+                                                primarily to the automation industry.<br /><br /><b>Contact Person</b><br />Mr. Harish Nachnani<br />National Sales Manager-Didactic</p>
+											    <div class="button1"><span><a href="https://www.festo.com/cms/en-in_in/9465.htm">Read More</a></span></div>
+                                            </div>
+											
 									   </div>
 		  						 </div>
 		  						 

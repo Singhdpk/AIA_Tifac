@@ -9,15 +9,15 @@ The kit has been designed under the aegis of Automation Industry Association Cam
     </div>
 
     <div>
-        <h1>Integrated Automation Lab Setup</h1>
-        <div>
-            <h3>•Electro-Pneumatics technology learning station </h3>
-            <p>oThis setup is configured with Festo industrial grade automation devices. Students get to know about the operating principles, the construction, the application and installation procedures of various automation control elements such as Single acting cylinder, Double acting cylinder, Single and Double sided pneumatic actuated valves, Dual pressure valve, Shuttle valves, Quick exhaust valves, Single solenoid valves, Proximity reed switch, Pressure sensor, Flow control valve, Proportional pressure regulator etc. By the  use of interface software to measure and control pneumatics  elements the students will learn to acquire fast PC supported recordings, experience to measure and interpret circuit status and infer the system behavior.</p>
+        <h2 >Integrated Automation Lab Setup</h2>
+        <div data-toggle="collapse" data-target="#electro">
+            <h3 >•Electro-Pneumatics technology learning station </h3></div>
+            <div id="electro" class="collapse">This setup is configured with Festo industrial grade automation devices. Students get to know about the operating principles, the construction, the application and installation procedures of various automation control elements such as Single acting cylinder, Double acting cylinder, Single and Double sided pneumatic actuated valves, Dual pressure valve, Shuttle valves, Quick exhaust valves, Single solenoid valves, Proximity reed switch, Pressure sensor, Flow control valve, Proportional pressure regulator etc. By the  use of interface software to measure and control pneumatics  elements the students will learn to acquire fast PC supported recordings, experience to measure and interpret circuit status and infer the system behavior.</p>
         </div>
 
          <div>
-            <h3>•	Remote I/O for your existing Industrial Sensing technology learning station </h3>
-            <p>o	Sensors are industrial devices that interact with the physical machinery or moving parts or environment around them and convert physical parameters or changes in parameters accurately into information that is made available on ‘real-time’ basis, to the rest of the control system it is connected with. A variety of industrial sensors used for object detection, position detection, speed detection are offered along with status indicating lamps and counters.  
+            <h3 data-toggle="collapse" data-target="#remote">•	Remote I/O for your existing Industrial Sensing technology learning station </h3></div>
+            <div><p id="remote" class="collapse">Sensors are industrial devices that interact with the physical machinery or moving parts or environment around them and convert physical parameters or changes in parameters accurately into information that is made available on ‘real-time’ basis, to the rest of the control system it is connected with. A variety of industrial sensors used for object detection, position detection, speed detection are offered along with status indicating lamps and counters.  
 o	This setup is configured with industrial grade automation devices.  Students get to know about the operating principles, the physics, the applications, installation and tuning procedures of various sensing devices such as Inductive sensors, Capacitive sensors, Photoelectric sensors ( with Direct detection, ER, Retro-reflective, Background Suppression options), Magnetic sensors, Ultrasonic sensors , Color Contrast sensors, Distance Measurement and Positioning sensors, Incremental Rotary Encoder, Speed / Frequency indicators, etc
 
         </div>
@@ -28,15 +28,16 @@ o	This setup is configured with industrial grade automation devices.  Students g
         </div>
 
         <div>
-            <h3>•	Motion Control technology learning station </h3>
-            <p>o		Motion Control station is designed keeping in view a holistic approach to Generic Motion Control. Configured around B&R industrial grade automation devices. Students get to know about the operating principles, the physics, the applications, programming and control procedures of various motion control drives, such as Servo drive and Synchronous motor, Stepper drive and motor. Designed to be placed on a desk, it comes with an integrated Control and Display station with touch screen and I/O chassis, complete with cable sets.			
+            <div data-toggle="collapse" data-target="#electro"> <h3>•	Motion Control technology learning station </h3>
+             <div><p id="remote" class="collapse"><p>	Motion Control station is designed keeping in view a holistic approach to Generic Motion Control. Configured around B&R industrial grade automation devices. Students get to know about the operating principles, the physics, the applications, programming and control procedures of various motion control drives, such as Servo drive and Synchronous motor, Stepper drive and motor. Designed to be placed on a desk, it comes with an integrated Control and Display station with touch screen and I/O chassis, complete with cable sets.			
         </div>
+                </div>
 
          <div>
-            <h3>•	Multi-technology integrated learning panel -1 	 </h3>
-            <p>o		The purpose of Integration panels is to impart an effective hands-on experience in the design and execution of comprehensive automation solutions. It is handy for experiments related to batch process and discrete manufacturing . All components are mutually compatible and system-tested. This ensures that they reliably perform their tasks and interact efficiently, and students can design their own automation solutions as mini-projects, relevant to industry users, as well, as they are equipped with electrical and pneumatic industry standard automation backplanes, assortment of interfacing relays and high quality panel wiring with spring terminals.  
+           <div data-toggle="collapse" data-target="#electro"> <h3>•	Multi-technology integrated learning panel -1 	 </h3>
+            <div><p id="remote" class="collapse">	The purpose of Integration panels is to impart an effective hands-on experience in the design and execution of comprehensive automation solutions. It is handy for experiments related to batch process and discrete manufacturing . All components are mutually compatible and system-tested. This ensures that they reliably perform their tasks and interact efficiently, and students can design their own automation solutions as mini-projects, relevant to industry users, as well, as they are equipped with electrical and pneumatic industry standard automation backplanes, assortment of interfacing relays and high quality panel wiring with spring terminals.  
 			
-
+              
         </div>
 
          <div>
