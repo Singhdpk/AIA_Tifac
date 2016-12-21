@@ -59,14 +59,13 @@
 		  						 
 				</div>
 				<div class="partner-leftgrids">
-								<div class="image group" style="margin-top:2%;
-                             margin-bottom:1%;">
+								<div class="image group" style="margin-top:2%; margin-bottom:1%;">
 									
 										<div class="grid span_2_of_3">
-                                            <div class="grid images_3_of_1">
+                                            <div class="span3">
 										<a href="#"><img src="images/BR.jpg" width="200px" height="50px"/></a>
 									</div>
-											<h3><a href="#">B&R</a></h3>
+											<div class="span6"><h3><a href="#">B&R</a></h3>
 											<p>The pioneering spirit of company founders Erwin Bernecker and Josef Rainer – and their vision of contributing something exceptional to the automation industry – sparked a fire that continues to shape our company to this day. Keen foresight and entrepreneurial courage helped B&R rise quickly into the ranks of top global players in industrial automation. An intuitive sense of market dynamics and emerging trends has established us as a pioneer, leading the way with the most innovative technology on the market. Looking forward, we aim to further strengthen our position globally and continue our impressive record of sustained growth.
 											<br /><br />
 <b>Contact Person</b>
@@ -75,7 +74,7 @@ Mr. Praveen Vaidya
 <br />
 Manager - Key accounts</p>
                                                 <div class="button1"><span><a href="https://www.br-automation.com/en-in/company/">Read More</a></span></div>
-									   </div>
+									   </div></div>
 		  						 </div>
 		  						 
 				</div>
@@ -85,10 +84,10 @@ Manager - Key accounts</p>
                              margin-bottom:1%;">
 									
 										<div class="grid span_2_of_3">
-                                            <div class="grid images_3_of_1">
+                                            <div class="span3">
 										<a href="#"><img src="images/siemens.png" width="200px" height="50px"/></a>
 									</div>
-											<h3><a href="#">Siemens</a></h3>
+											<div class="span6"><h3><a href="#">Siemens</a></h3>
 											<p>Siemens is a global powerhouse positioned along the electrification value chain ā from power generation, transmission and distribution to smart grid solutions and the efficient application of electrical energy ā as well as in the areas of medical imaging and in-vitro diagnostics. The Siemens Group in India has emerged as a leading inventor, innovator and implementer of leading-edge technology enabled solutions operating in the core business segments of Industry, Energy, Healthcare and Infrastructure and Cities. The Groupās business is represented by various companies that span across these various segments.
 											<br /><br />
 <b>Contact Person</b>
@@ -97,7 +96,7 @@ Mr. Milind Kulkarni<br />
 Head Bussiness Development- Factory Automation
                                             </p>
                                             <div class="button1"><span><a href="http://www.siemens.co.in/about-us/siemens-india.htm">Read More</a></span></div>
-									   </div>
+									   </div></div>
 		  						 </div>
 		  						 
 				</div>
@@ -105,10 +104,10 @@ Head Bussiness Development- Factory Automation
 								<div class="image group" style="margin-top:2%; margin-bottom:1%;">
 									
 										<div class="grid span_2_of_3">
-                                            <div class="grid images_3_of_1">
+                                            <div class="span3">
 										<a href="#"><img src="images/RockwellAutomation.jpg" width="200px" height="50px"/></a>
 									</div>
-											<h3><a href="#">Rockwell Automation</a></h3>
+											<div class="span6"><h3><a href="#">Rockwell Automation</a></h3>
 											<p>Rockwell Automation, Inc. (NYSE: ROK), the world’s largest company dedicated to industrial automation and information, makes its customers more productive and the world more sustainable. Headquartered in Milwaukee, Wisconsin, Rockwell Automation employs about 22,500 people serving customers in more than 80 countries.
 
 Rockwell Automation is built on a strong foundation of integrity. And its reputation for quality, reliability and innovation is represented by the brands the products, software and services carry. With the continuous enhancement in offerings, Rockwell Automation remain keenly focused on enhancing its unique technology differentiation — and delivering integrated, value-added solutions.
@@ -119,7 +118,7 @@ Mr. Vivek Gupta,<br />
 Manager – Commercial Engineering & Technical Competency.
                                             </p>
                                             <div class="button1"><span><a href="http://www.rockwellautomation.com/global/industries/overview.page?">Read More</a></span></div>
-									   </div>
+									   </div></div>
 		  						 </div>
 		  						 
 				</div>

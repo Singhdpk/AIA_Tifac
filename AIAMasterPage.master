@@ -89,9 +89,8 @@
     </div>
   <![endif]-->
 
-    <div id="wrapper">
+    <div id="wrapper" style="background-image:url(images/bgaia.jpg)">
         <div class="wrapper-inner">
-
             <div id="header-row">
                 <div class="row-container">
                     <div class="container-fluid">
@@ -148,16 +147,32 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li id="iceMenu_139" class="iceMenuLiLevel_1 mzr-drop parent"><a href="TrainingFacility.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training Facility</span></a>
+                                            <li id="iceMenu_139" class="iceMenuLiLevel_1"><a href="TrainingFacility.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training Facility</span></a>
                                                 
                                             </li>
-                                            <li id="iceMenu_203" class="iceMenuLiLevel_1 mzr-drop parent"><a href="ProgramDetails.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Programs</span></a>
+                                            <li id="iceMenu_203" class="iceMenuLiLevel_1 ><a href="ProgramDetails.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Programs</span></a>
                                                 
                                             </li>
                                             <li id="iceMenu_141" class="iceMenuLiLevel_1 iceMenuTitle"><a href="IndustryPartners.aspx" class=" iceMenuTitle"> <span class="icemega_title icemega_nosubtitle">Industry Partners</span></a></></li>
                                             <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle"><a href="Research.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Research</span></a></li>
                                             <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a href="Certification.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Certification</span></a></li>
                                              <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a href="Contact.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Contact</span></a></li>
+                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle mzr-drop parent"><a href="Contact.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Registration</span></a>
+                                                <ul class="icesubMenu icemodules sub_level_1" style="width: 160px">
+                                                    <li>
+                                                        <div style="float: left; width: 160px" class="iceCols">
+                                                            <ul>
+                                                                <li id="iceMenu_143" class="iceMenuLiLevel_2"><a href="Akgec.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Internship</span></a></li>
+                                                                <li id="iceMenu_144" class="iceMenuLiLevel_2 mzr-drop parent"><a href="AIA.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training</span></a>
+                                                                </li>
+                                                                
+                                                                <li id="iceMenu_145" class="iceMenuLiLevel_2"><a href="TrainingFacility.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Workshop</span></a></li>
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -223,59 +238,235 @@
                 </div>
             </div>
             <div class="container">
+                <div class=" span8" style="background-color:#fff;">
                 <asp:ContentPlaceHolder runat="server" ID="cph1"></asp:ContentPlaceHolder>
+            </div>
+            <div class="moduletable news  span3" style="background-color:#fff; margin-left:0px;">
+                
+                                        <header>
+                                            <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Quick Links</span> </h3>
+                                        </header>
+                                        <div class="mod-menu">
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/37-industry-sponsors-2"><img src="images/festo.png" width="50px" height="50px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                     <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/18-industry-sponsors"><img src="images/BR.jpg"" width="50px" height="50px"/></a>
+                                                </div>                                               
+                                            </div><br />
+                                            <div class="row-fluid">
+                                                 <div class="span6">
+                                                     <a href="http://www.aiacampus.in/"><img src="images/logo1.gif" width="50px" height="50px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/38-industry-sponsors-3"><img src="images/P&F.png" width="50px" height="50px"/></a>
+                                                </div>
+                                            </div><br />
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/77-rockwell-automation"><img src="images/RockwellAutomation.jpg" width="50px" height="50px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                    <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/39-industry-sponsors-4"><img src="images/siemens.png"  width="50px" height="50px"/></a>
+                                                </div>                                                
+                                            </div><br />
+                                            <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="http://www.akgec-kuka.org/AKGEC-IRTC/index.html"><img src="images/360_icon.jpg" width="50px" height="50px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                     <a href="http://www.akgec.in/"><img src="images/akgeci.jpg" width="50px" height="50px"/></a>
+                                                </div>                                               
+                                            </div><br />
+                                             <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="Certification.aspx"><img src="images/Download-icon.png" width="50px" height="50px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                     <a href="http://117.55.241.58/visitor/visitorlogin.php"><img src="images/guestbook_icon.gif" width="50px" height="50px"/></a>
+                                                </div>                                               
+                                            </div><br />
+                                             <div class="row-fluid">
+                                                <div class="span6">
+                                                      <a href="TraineeTestimonials.aspx"><img src="images/Testimonial-white.png" width="50px" height="50px"/></a>
+                                                </div>
+                                                <div class="span6">
+                                                     <a href="VisitorsSpeak.aspx"><img src="images/VS.png" width="50px" height="50px"/></a>
+                                                </div>                                               
+                                            </div><br />
+                                        </div>
+                                    
+                                        <header>
+                                            <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Latest</span> <span class="item_title_part1 item_title_part_even item_title_part_second_half">News</span> </h3>
+                                        </header>
+                                        <div class="mod-newsflash-adv mod-newsflash-adv__news cols-1" id="module_120">
+                                            <div class="row-fluid">
+                                                <article class="span6 item item_num0 item__module  " id="item_85">
+                                                    <div class="item_box">
+                                                        <div class="item_content">
+                                                            <time datetime="2014-11-14 15:46" class="item_published">14 Nov 2014 </time>
+
+                                                            <h5 class="item_title item_title__news">
+                                                                <a href="/joomla_52310/index.php/37-latest-news/85-lorem-ipsum-dolor-sit-amet-conse-ctetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</a>
+                                                            </h5>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </article>
+                                            </div>
+                                            <div class="row-fluid">
+                                                <article class="span6 item item_num1 item__module  " id="item_86">
+                                                    <div class="item_box">
+                                                        <div class="item_content">
+                                                            <time datetime="2014-11-14 15:46" class="item_published">14 Nov 2014 </time>
+
+                                                            <h5 class="item_title item_title__news">
+                                                                <a href="/joomla_52310/index.php/37-latest-news/86-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
+                                                            </h5>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </article>
+                                            </div>
+                                            <div class="row-fluid">
+                                                <article class="span6 item item_num2 item__module  " id="item_87">
+                                                    <div class="item_box">
+                                                        <div class="item_content">
+                                                            <time datetime="2014-11-14 15:46" class="item_published">14 Nov 2014 </time>
+
+                                                            <h5 class="item_title item_title__news">
+                                                                <a href="/joomla_52310/index.php/37-latest-news/87-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</a>
+                                                            </h5>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </article>
+                                            </div>
+                                            <div class="row-fluid">
+                                                <article class="span6 item item_num3 item__module  " id="item_88">
+                                                    <div class="item_box">
+                                                        <div class="item_content">
+                                                            <time datetime="2014-11-14 15:46" class="item_published">14 Nov 2014 </time>
+
+                                                            <h5 class="item_title item_title__news">
+                                                                <a href="/joomla_52310/index.php/37-latest-news/88-ipsum-dolor-sit-amet-conse-ctetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore">Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</a>
+                                                            </h5>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </article>
+                                            </div>
+                                            <div class="row-fluid">
+                                                <article class="span6 item item_num4 item__module  lastItem" id="item_89">
+                                                    <div class="item_box">
+                                                        <div class="item_content">
+                                                            <time datetime="2014-11-14 15:46" class="item_published">14 Nov 2014 </time>
+
+                                                            <h5 class="item_title item_title__news">
+                                                                <a href="/joomla_52310/index.php/37-latest-news/89-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commod">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.</a>
+                                                            </h5>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                            <div id="fb-root"></div>
+                                                            <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </article>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="mod-newsflash-adv_custom-link">
+                                                <a class="link1" href="/joomla_52310/index.php/blog">See all</a>
+                                            </div>
+                                        </div>
+                                    </div>
             </div>
             
         </div>
     </div>
-   <div class="footer ">
-            <div class="wrap container">
-                <div class="footer-grid" >
-                    <h3>PARTNERS</h3>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp; PEPPEREL & FUCHS</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Festo</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;B&R</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SIEMENS</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SMC CORPORATION</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;MITSUBISHI</a></li>
-                    </ul>
-                </div>
-                <div class="footer-grid">
-                    <h3>FACULTY</h3>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Ashiv Shah</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;D.K.Singh</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Rahul Dixit</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Ashish Gupta</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Mugdha Goel</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Aditi Chaudhary</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;Ayush Srivastava</a></li>
-                    </ul>
-                </div>
-                <div class="footer-grid">
-                    <h3>FOR CLIENTS</h3>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;FORUMS</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;CLIENTS</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;PROMOTIONS</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SIGN IN</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;SCHEDULE</a></li>
-                    </ul>
-                </div>
-                <div class="footer-grid">
-                    <h3>ARCHIVE</h3>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;JAN 2013</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;FEB 2013</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;MAR 2013</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;APR 2013</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> &nbsp;MAY 2013</a></li>
-                    </ul>
-                </div>
-                <div class="clear"></div>
-            </div>            
-        </div>
+   
         <div id="SI" class="container-fluid">
                 Powered by : Software Incubator <a href="http://silive.in/"><img src="images/si_logo.png" width="50px" height="50px"/></a>
             </div>
