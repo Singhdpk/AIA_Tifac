@@ -8,16 +8,19 @@
 		 		<h4 style="font-size:4em; margin-top:3%; text-align:center;">Industry Partners</h4>
 		 		<div class="partner-leftgrids">
                      <style>
-                         p{
-                             text-align:justify;
+                         p {
+                             text-align: justify;
                          }
-                         b{
-                             font-size: 14px;font-weight: 600;color: gray;
+
+                         b {
+                             font-size: 14px;
+                             font-weight: 600;
+                             color: gray;
                          }
-                        
-                         .image group{
-                             margin-top:2%;
-                             margin-bottom:1%;
+
+                         .image group {
+                             margin-top: 2%;
+                             margin-bottom: 1%;
                          }
                      </style>
 								<div class="image group" style="margin-top:2%; margin-bottom:1%;">
@@ -93,9 +96,6 @@ Manager - Key accounts</p>
 Mr. Milind Kulkarni<br />
 Head Bussiness Development- Factory Automation
                                             </p>
-                                            
-
-
                                             <div class="button1"><span><a href="http://www.siemens.co.in/about-us/siemens-india.htm">Read More</a></span></div>
 									   </div>
 		  						 </div>
