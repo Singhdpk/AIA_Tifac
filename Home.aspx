@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cph1" Runat="Server">
     <div class="bg_top">
-
+        <h3 style="text-align:center;">WELCOME TO AKGEC-AIA</h3>
                 <div id="showcase-row">
                     <div class="row-container" style="padding-bottom: 30px;">
                         <div class="container-fluid">

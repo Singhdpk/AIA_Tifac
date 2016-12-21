@@ -38,10 +38,14 @@
     <script src="bootstrap.min.js" type="text/javascript"></script>
     <script src="camera.min.js" type="text/javascript"></script>
     <style>
-       #navigation-row {
-    padding-bottom: 0px;
+       #nav_bar {
+   
     background-color: #54a5dd;
+    padding-bottom:10px;
 }
+       #navigation-row{
+           padding-bottom:0px;
+       }
        span3{
            border:2px solid #54a5dd;
        }
@@ -126,8 +130,8 @@
 
             <div id="navigation-row" role="navigation" >
                 <div class="row-container">
-                    <div class="container-fluid">
-                        <div class="row-fluid" style=" padding-bottom:10px;">
+                    <div class="container-fluid" >
+                        <div class="row-fluid" id="nav_bar">
                             <div class="moduletable span12">
                                 <div class="icemegamenu">
                                     <div class="ice-megamenu-toggle"><a data-toggle="collapse" data-target=".nav-collapse">Menu</a></div>
@@ -165,11 +169,11 @@
                                                     <li>
                                                         <div style="float: left; width: 160px" class="iceCols">
                                                             <ul>
-                                                                <li id="iceMenu_143" class="iceMenuLiLevel_3"><a href="Akgec.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Internship</span></a></li>
-                                                                <li id="iceMenu_144" class="iceMenuLiLevel_3  mzr-drop parent"><a href="AIA.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training</span></a>
+                                                                <li id="iceMenu_143" class="iceMenuLiLevel_3"><a href="https://akgecskills.in/CMS/redirect.aspx?centre=42eMODVatclN0FQPIK8tug==&nretni=RoANvgVSSqY=" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Internship</span></a></li>
+                                                                <li id="iceMenu_144" class="iceMenuLiLevel_3  mzr-drop parent"><a href="https://akgecskills.in/CMS/redirect.aspx?centre=42eMODVatclN0FQPIK8tug==" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training</span></a>
                                                                 </li>
                                                                 
-                                                                <li id="iceMenu_145" class="iceMenuLiLevel_3"><a href="TrainingFacility.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Workshop</span></a></li>
+                                                                <li id="iceMenu_145" class="iceMenuLiLevel_3"><a href="https://akgecskills.in/CMS/redirect.aspx?centre=42eMODVatclN0FQPIK8tug==&w=w" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Workshop</span></a></li>
                                                                 
                                                             </ul>
                                                         </div>
@@ -241,10 +245,12 @@
                 </div>
             </div>
             <div class="container" style="background-color:#fff;  box-shadow: 5px 5px  #888888; ">
+                
                 <div class=" span8" >
+                    
                 <asp:ContentPlaceHolder runat="server" ID="cph1"></asp:ContentPlaceHolder>
             </div>
-            <div class="moduletable news  span3" style=" margin-left:0px; margin-top:3%;">
+            <div class="moduletable news  span3" style="  margin-top:2%;">
                 <div style="border:2px solid #dcdcdc;  border-radius:10px; ">
                                         <header style="text-align:center; color: #fff; background-color:#54a5dd">
                                             <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Quick Links</span> </h3>

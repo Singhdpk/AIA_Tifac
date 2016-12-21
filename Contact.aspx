@@ -47,11 +47,12 @@
 						    </div>
 						    <div>
 						    	<span><label>QUERY</label></span>
-						    	<span><textarea id="txtareaUserQuery" runat="server"></textarea></span>
+						    	<span><asp:TextBox  id="txtMessage" runat="server" TextMode="MultiLine" Height="200px" Width="494px"></asp:TextBox>></span>
 						    </div>
 						   <div>
 						   		<span><asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"/></span>
 						  </div>
+                      <asp:Label ID="lblError" runat="server"></asp:Label>
 					    
 
 				    </div>
