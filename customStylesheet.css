@@ -1728,7 +1728,7 @@ time,
   width: auto;
 }
 .row-fluid {
-  margin-left: -30px;
+  margin: 0 auto;
   width: auto;
 }
 .row-fluid [class*="itemSpan"],
@@ -3299,10 +3299,7 @@ input[type='checkbox'] {
 .news .item {
   padding-bottom: 0;
 }
-.news h3 {
-  color: #33b0f8;
-  padding-bottom: 23px;
-}
+
 .news .item_box {
   border-top: 1px solid #cccccc;
   padding-top: 14px;

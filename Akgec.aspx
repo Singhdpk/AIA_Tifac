@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AIAMasterPage.master" AutoEventWireup="true" CodeFile="Akgec.aspx.cs" Inherits="Akgec" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cph1" Runat="Server">
-    <div class="content container">
+    <div class="content row-fluid"  style="margin :3%;">
                 <div class="about-content">
                     <div class="about-left">
                         <h2>About AKGEC</h2>

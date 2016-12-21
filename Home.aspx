@@ -6,7 +6,7 @@
                 <div id="showcase-row">
                     <div class="row-container" style="padding-bottom: 30px;">
                         <div class="container-fluid">
-                            <div class="row-fluid">
+                            <div class="row-fluid" style="margin :auto;">
                                 <div class="moduletable   span12">
                                     <div id="camera-slideshow_92" style="height: 500px !important;" class="  camera_wrap pattern_1">
                                         <div class="camera-item" data-src="slide-1.jpg">
@@ -170,7 +170,7 @@
                     <div id="maintop-row">
                         <div class="row-container">
                             <div class="container-fluid">
-                                <div id="maintop" class="row-fluid">
+                                <div id="maintop" class="row-fluid"  style="margin:auto;">
                                     
                                     <div class="moduletable opportunities">
                                         <header>
