@@ -9,9 +9,8 @@
                             <div class="row-fluid" style="margin :auto;">
                                 <div class="moduletable   span12">
                                     <div id="camera-slideshow_92" style="height: 500px !important;" class="  camera_wrap pattern_1">
-                                        <div class="camera-item" data-src="slide-1.jpg">
+                                        <div class="camera-item" data-src="main imges/DSC_0111.jpg">
                                             <div class="camera_caption moveFromLeft">
-                                                <h1 class="slide-title">voluptate velit esse cillum dolore eu set fugiat nulla </h1>
                                                 <div id="fb-root"></div>
                                                 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -28,23 +27,34 @@
     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, "script", "facebook-jssdk"));</script>
-                                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                                <div class="info">
-                                                    <time datetime="2014-05-02 19:54" class="item_published">02 May 2014 </time>
-                                                    <span class="komento">
-                                                        <div class="kmt-readon">
-                                                            <span class="kmt-comment aligned-left">
-                                                                <a href="https://livedemo00.template-help.com/joomla_52310/index.php/18-slider/16-slide-1-nulla-ac-enim-ligula#section-kmt">Comments (0)</a>
-                                                            </span>
-                                                        </div>
-                                                    </span>
-                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="camera-item" data-src="main imges/DSC_0112.jpg">
+                                            <div class="camera_caption moveFromLeft">
+                                                
+                                                <div id="fb-root"></div>
+                                                <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                <div id="fb-root"></div>
+                                                <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                
 
                                             </div>
                                         </div>
-                                        <div class="camera-item" data-src="slide-2.jpg">
+                                        <div class="camera-item" data-src="main imges/DSC_0113.jpg">
                                             <div class="camera_caption moveFromLeft">
-                                                <h1 class="slide-title">Excepteur sint occaecat cupi datat non pro ident set </h1>
                                                 <div id="fb-root"></div>
                                                 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -61,23 +71,12 @@
     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, "script", "facebook-jssdk"));</script>
-                                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                                <div class="info">
-                                                    <time datetime="2014-05-02 19:55" class="item_published">02 May 2014 </time>
-                                                    <span class="komento">
-                                                        <div class="kmt-readon">
-                                                            <span class="kmt-comment aligned-left">
-                                                                <a href="https://livedemo00.template-help.com/joomla_52310/index.php/18-slider/17-slide-2-maecenas-blandit-semper#section-kmt">Comments (0)</a>
-                                                            </span>
-                                                        </div>
-                                                    </span>
-                                                </div>
+                                                
 
                                             </div>
                                         </div>
-                                        <div class="camera-item" data-src="slide-3.jpg">
+                                        <div class="camera-item" data-src="main imges/DSC_0520.jpg">
                                             <div class="camera_caption moveFromLeft">
-                                                <h1 class="slide-title">Lorem ipsum dolor sit amet conse ctetur adipisicing </h1>
                                                 <div id="fb-root"></div>
                                                 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -94,18 +93,29 @@
     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, "script", "facebook-jssdk"));</script>
-                                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                                <div class="info">
-                                                    <time datetime="2014-05-02 19:56" class="item_published">02 May 2014 </time>
-                                                    <span class="komento">
-                                                        <div class="kmt-readon">
-                                                            <span class="kmt-comment aligned-left">
-                                                                <a href="https://livedemo00.template-help.com/joomla_52310/index.php/18-slider/18-slide-3-fusce-molestie#section-kmt">Comments (0)</a>
-                                                            </span>
-                                                        </div>
-                                                    </span>
-                                                </div>
-
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="camera-item" data-src="main imges/DSC_0534.jpg">
+                                            <div class="camera_caption moveFromLeft">
+                                               
+                                                <div id="fb-root"></div>
+                                                <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                <div id="fb-root"></div>
+                                                <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+                                                
                                             </div>
                                         </div>
                                     </div>

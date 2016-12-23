@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="common.css" type="text/css" />
     <link rel="stylesheet" href="default.css" type="text/css" />
     <link rel="stylesheet" href="default1.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" /
     <link rel="stylesheet" href="default2.css" type="text/css" />
     <link rel="stylesheet" href="layout.css" type="text/css" />
     <link rel="stylesheet" href="jquery.fancybox.css" type="text/css" />
@@ -96,7 +96,7 @@
     </div>
   <![endif]-->
 
-    <div id="wrapper" style="background-image:url(images/bgaia.jpg); background-size:cover;">
+    <div id="wrapper" style="background-image:url(images/bgaia.jpg); background-size:contain; background-position:fixed;">
         <div class="wrapper-inner">
             <div id="header-row">
                 <div class="row-container">
@@ -137,8 +137,8 @@
                                     <div class="ice-megamenu-toggle"><a data-toggle="collapse" data-target=".nav-collapse">Menu</a></div>
                                     <div class="nav-collapse icemegamenu collapse  ">
                                         <ul id="icemegamenu" class="meganizr mzr-slide mzr-responsive">
-                                            <li id="iceMenu_101" class="iceMenuLiLevel_1 iceMenuTitle"><a href="Home.aspx" class="icemega_active iceMenuTitle"><span class="icemega_title icemega_nosubtitle" style="color:black;">Home</span></a></li>
-                                            <li id="iceMenu_134" class="iceMenuLiLevel_1 mzr-drop parent"><a href="" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">About</span></a>
+                                            <li id="iceMenu_101" class="iceMenuLiLevel_1 iceMenuTitle"><a href="Home.aspx" class="icemega_active iceMenuTitle"><span class="icemega_title icemega_nosubtitle" style="color:#fff;">Home</span></a></li>
+                                            <li id="iceMenu_134" class="iceMenuLiLevel_1 mzr-drop parent"><a href="" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle"style="color:#fff;">About</span></a>
                                                 <ul class="icesubMenu icemodules sub_level_1" style="width: 160px">
                                                     <li>
                                                         <div style="float: left; width: 160px" class="iceCols">
@@ -153,33 +153,38 @@
                                                         </div>
                                                     </li>
                                                 </ul>
-                                            </li>
-                                            <li id="iceMenu_139" class="iceMenuLiLevel_1"><a href="TrainingFacility.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training Facility</span></a>
-                                                
-                                            </li>
-                                            <li id="iceMenu_203" class="iceMenuLiLevel_1 iceMenuTitle"><a href="ProgramDetails.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Programs</span></a>
-                                                
-                                            </li>
-                                            <li id="iceMenu_141" class="iceMenuLiLevel_1 iceMenuTitle"><a href="IndustryPartners.aspx" class=" iceMenuTitle"> <span class="icemega_title icemega_nosubtitle">Industry Partners</span></a></></li>
-                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle"><a href="Research.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Research</span></a></li>
-                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a href="Certification.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Certification</span></a></li>
-                                             <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a href="Contact.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Contact</span></a></li>
-                                            <li id="iceMenu_142" class="iceMenuLiLevel_2  mzr-drop parent"><a href="" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Registration</span></a>
-                                                <ul class="icesubMenu icemodules sub_level_2" style="width: 160px">
+                                            </li>                                  
+                                            <li id="iceMenu_141" class="iceMenuLiLevel_1 iceMenuTitle"><a href="IndustryPartners.aspx" class=" iceMenuTitle"> <span class="icemega_title icemega_nosubtitle"style="color:#fff;">Industry Partners</span></a></></li>
+                                            <li id="iceMenu_134" class="iceMenuLiLevel_1 mzr-drop parent"><a href="ResearchProgram.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle"style="color:#fff;">Research</span></a>
+                                                <ul class="icesubMenu icemodules sub_level_1" style="width: 160px; left:200px;">
                                                     <li>
                                                         <div style="float: left; width: 160px" class="iceCols">
                                                             <ul>
-                                                                <li id="iceMenu_143" class="iceMenuLiLevel_3"><a href="https://akgecskills.in/CMS/redirect.aspx?centre=42eMODVatclN0FQPIK8tug==&nretni=RoANvgVSSqY=" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Internship</span></a></li>
-                                                                <li id="iceMenu_144" class="iceMenuLiLevel_3  mzr-drop parent"><a href="https://akgecskills.in/CMS/redirect.aspx?centre=42eMODVatclN0FQPIK8tug==" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training</span></a>
-                                                                </li>
-                                                                
-                                                                <li id="iceMenu_145" class="iceMenuLiLevel_3"><a href="https://akgecskills.in/CMS/redirect.aspx?centre=42eMODVatclN0FQPIK8tug==&w=w" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Workshop</span></a></li>
+                                                                <li id="iceMenu_135" class="iceMenuLiLevel_2"><a href="ResearchProgram.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Programs</span></a></li>
                                                                 
                                                             </ul>
                                                         </div>
                                                     </li>
                                                 </ul>
-                                            </li>
+                                            </li>   
+                                            <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a href="Certification.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle"style="color:#fff;">Certification</span></a></li>
+                                             <li id="iceMenu_134" class="iceMenuLiLevel_1 mzr-drop parent"><a href="" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle"style="color:#fff;">Registration</span></a>
+                                                <ul class="icesubMenu icemodules sub_level_1" style="width: 160px; left:550px;">
+                                                    <li>
+                                                        <div style="float: left; width: 160px" class="iceCols">
+                                                            <ul>
+                                                                <li id="iceMenu_135" class="iceMenuLiLevel_2"><a href="Akgec.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Internship</span></a></li>
+                                                                <li id="iceMenu_136" class="iceMenuLiLevel_2 mzr-drop parent"><a href="AIA.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Training</span></a>
+                                                                </li>
+                                                                
+                                                                <li id="iceMenu_133" class="iceMenuLiLevel_2"><a href="TrainingFacility.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle">Workshop</span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>  
+                                             <li id="iceMenu_142" class="iceMenuLiLevel_1 iceMenuTitle "><a href="Contact.aspx" class=" iceMenuTitle"><span class="icemega_title icemega_nosubtitle"style="color:#fff;">Contact</span></a></li>
+                                           
                                         </ul>
                                     </div>
                                 </div>
@@ -250,7 +255,7 @@
                     
                 <asp:ContentPlaceHolder runat="server" ID="cph1"></asp:ContentPlaceHolder>
             </div>
-            <div class="moduletable news  span3" style="  margin-top:2%;">
+            <div class="moduletable news  span3" style="margin-top:2%;">
                 <div style="border:2px solid #dcdcdc;  border-radius:10px; ">
                                         <header style="text-align:center; color: #fff; background-color:#54a5dd">
                                             <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Quick Links</span> </h3>
@@ -259,47 +264,47 @@
                                         <div class="mod-menu" style="padding:10px;">
                                             <div class="row-fluid">
                                                 <div class="span4" >
-                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/37-industry-sponsors-2"><img src="images/festo.png"/></a>
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/37-industry-sponsors-2"><img src="images/festo.png" data-toggle="tooltip" title="Festo"/></a>
                                                 </div>
                                                 <div class="span4">
-                                                     <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/18-industry-sponsors"><img src="images/BR.jpg""/></a>
+                                                     <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/18-industry-sponsors"><img src="images/BR.jpg" data-toggle="tooltip" title="BR"/></a>
                                                 </div> 
                                                 <div class="span4">
-                                                     <a href="http://www.aiacampus.in/"><img src="images/logo1.gif" width="50px" height="50px"/></a>
+                                                     <a href="http://www.aiacampus.in/"><img src="images/logo1.gif" data-toggle="tooltip" title="AIA Campus Connect"/></a>
                                                 </div>                                              
                                             </div><br />
                                             <div class="row-fluid">
                                                  <div class="span4">
-                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/77-rockwell-automation"><img src="images/RockwellAutomation.jpg"/></a>
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/77-rockwell-automation"><img src="images/RockwellAutomation.jpg" data-toggle="tooltip" title="Rockwell Automation"/></a>
                                                 </div>
                                                 <div class="span4">
-                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/38-industry-sponsors-3"><img src="images/P&F.png"/></a>
+                                                      <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/38-industry-sponsors-3"><img src="images/P&F.png" data-toggle="tooltip" title="P & F"/></a>
                                                 </div>
                                                 <div class="span4">
-                                                    <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/39-industry-sponsors-4"><img src="images/siemens.png"  /></a>
+                                                    <a href="http://www.aiacampus.in/index.php/industry/industry-sponsors/39-industry-sponsors-4"><img src="images/siemens.png"  data-toggle="tooltip" title="Siemens"/></a>
                                                 </div> 
                                             </div><br />
                                            
                                             <div class="row-fluid">
                                                 <div class="span4">
-                                                      <a href="http://www.akgec-kuka.org/AKGEC-IRTC/index.html"><img src="images/360_icon.jpg" width="50px" height="50px"/></a>
+                                                      <a href="360/AIA/index.html"><img src="images/360_icon.jpg" data-toggle="tooltip" title="360"/></a>
                                                 </div>
                                                 <div class="span4">
-                                                     <a href="http://www.akgec.in/"><img src="images/akgeci.jpg" width="50px" height="50px"/></a>
+                                                     <a href="http://www.akgec.in/"><img src="images/akgeci.jpg"data-toggle="tooltip" title="AKGEC"/></a>
                                                 </div>  
                                                  <div class="span4">
-                                                      <a href="Certification.aspx"><img src="images/Download-icon.png" width="50px" height="50px"/></a>
+                                                      <a href="Certification.aspx"><img src="images/Download-icon.png" data-toggle="tooltip" title="Download"/></a>
                                                 </div>                                             
                                             </div><br />
                                              <div class="row-fluid">
                                                 <div class="span4">
-                                                      <a href="TraineeTestimonials.aspx"><img src="images/Testimonial-white.png" width="50px" height="50px"/></a>
+                                                      <a href="TraineeTestimonials.aspx"><img src="images/Testimonial-white.png" data-toggle="tooltip" title="Testimonial"/></a>
                                                 </div>
                                                 <div class="span4">
-                                                     <a href="VisitorsSpeak.aspx"><img src="images/VS.png" width="50px" height="50px"/></a>
+                                                     <a href="VisitorsSpeak.aspx"><img src="images/VS.png" data-toggle="tooltip" title="VS"/></a>
                                                 </div>     
                                                 <div class="span4">
-                                                     <a href="http://117.55.241.58/visitor/visitorlogin.php"><img src="images/guestbook_icon.gif" width="50px" height="50px"/></a>
+                                                     <a href="http://117.55.241.58/visitor/visitorlogin.php"><img src="images/guestbook_icon.gif" data-toggle="tooltip" title="GuestBook"/></a>
                                                 </div>                                               
                                             </div><br />
                                             
@@ -311,77 +316,116 @@
                     <header style="text-align:center; color: #fff; background-color:#54a5dd;">
                                             <h3 class="moduleTitle "><span class="item_title_part0 item_title_part_odd item_title_part_first_half item_title_part_first">Latest</span> <span class="item_title_part1 item_title_part_even item_title_part_second_half">News</span> </h3>
                                         </header>
-                                        <div class="mod-newsflash-adv mod-newsflash-adv__news cols-1" id="module_120" style=" padding:10px;">
-                                           
-                                       
-                                            <div class="row-fluid">
-                                                <article class="span6 item item_num1 item__module  " id="item_86">
-                                                    <div class="item_box">
-                                                        <div class="item_content">
-                                                            <time datetime="2014-11-14 15:46" class="item_published">14 Nov 2014 </time>
+                    <style>
+	#vertical-slider li{
+		font-size: 14px;
+		padding: 10px 0;
+	}
+	#vertical-slider{
+		border-radius: 10px 10px 0 0; 
+		font-size:14px; 
+		padding: 10px;
+		color: #474747; 
+		text-align: left; 
+		margin: 0;
+	}
+</style>
+                    
 
-                                                            <h5 class="item_title item_title__news">
-                                                                <a href="/joomla_52310/index.php/37-latest-news/86-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum">Excepteur sint occaecat cupidatat non proident.</a>
-                                                            </h5>
-                                                            <div id="fb-root"></div>
-                                                            <script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, "script", "facebook-jssdk"));</script>
-                                                            <div id="fb-root"></div>
-                                                            <script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, "script", "facebook-jssdk"));</script>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="clearfix"></div>
-                                                </article>
-                                            </div>
-                                            <div class="row-fluid">
-                                                <article class="span6 item item_num2 item__module  " id="item_87">
-                                                    <div class="item_box">
-                                                        <div class="item_content">
-                                                            <time datetime="2014-11-14 15:46" class="item_published">14 Nov 2014 </time>
-
-                                                            <h5 class="item_title item_title__news">
-                                                                <a href="/joomla_52310/index.php/37-latest-news/87-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo">Ut enim ad minim aliquip ex ea commodo.</a>
-                                                            </h5>
-                                                            <div id="fb-root"></div>
-                                                            <script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, "script", "facebook-jssdk"));</script>
-                                                            <div id="fb-root"></div>
-                                                            <script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=296188807244109";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, "script", "facebook-jssdk"));</script>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="clearfix"></div>
-                                                </article>
-                                            </div>
+                                        <script type="text/javascript">
                                             
-                                            <div class="clearfix"></div>
-                                            <div class="mod-newsflash-adv_custom-link">
-                                                <a class="link1" href="/joomla_52310/index.php/blog">See all</a>
-                                            </div>
-                                        </div>
+                                    /*
+                                    Cross browser Marquee II- © Dynamic Drive (www.dynamicdrive.com)
+                                    For full source code, 100's more DHTML scripts, and TOS, visit http://www.dynamicdrive.com
+                                    Modified by jscheuer1 for continuous content. Credit MUST stay intact for use
+                                    */
+
+                                    //Specify the marquee's width (in pixels)
+                                    var marqueewidth = "250px"
+                                    //Specify the marquee's height
+                                    var marqueeheight = "300px"
+                                    //Specify the marquee's marquee speed (larger is faster 1-10)
+                                    var marqueespeed = 1
+                                    //Specify initial pause before scrolling in milliseconds
+                                    var initPause = 1000
+                                    //Specify start with Full(1)or Empty(0) Marquee
+                                    var full = 1
+                                    //Pause marquee onMousever (0=no. 1=yes)?
+                                    var pauseit = 1
+                                    //Specify Break characters for IE as the two iterations
+                                    //of the marquee, if text, will be too close together in IE
+                                    var iebreak = '<p></p>'
+
+                                    //Specify the marquee's content
+                                    //Keep all content on ONE line, and backslash any single quotations (ie: that\'s great):
+
+                                    var marqueecontent = '<ul id="vertical-slider"><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Winter Training Program-2016</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">One Day Workshop on Industrial Robotics</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Participants from other universities</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Finishing School Program</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Robots to Create More Than a Million Jobs by 2016</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">German Companies in India</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">KUKA Establishes Robotics Training Centre</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">India First Training Centre</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">KUKA To Bring Energy Efficient Robots</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Inaugural Function 2011</a></li><li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Workshop on Robot Operations & Applications</a></li></ul>'
+
+
+                                    ////NO NEED TO EDIT BELOW THIS LINE////////////
+                                    var copyspeed = marqueespeed
+                                    var pausespeed = (pauseit == 0) ? copyspeed : 0
+                                    var iedom = document.all || document.getElementById
+                                    var actualheight = ''
+                                    var cross_marquee, cross_marquee2, ns_marquee
+
+                                    function populate() {
+                                        if (iedom) {
+                                            var lb = document.getElementById && !document.all ? '' : iebreak
+                                            cross_marquee = document.getElementById ? document.getElementById("iemarquee") : document.all.iemarquee
+                                            cross_marquee2 = document.getElementById ? document.getElementById("iemarquee2") : document.all.iemarquee2
+                                            cross_marquee.style.top = (full == 1) ? '8px' : parseInt(marqueeheight) + 0 + "px"
+                                            cross_marquee2.innerHTML = cross_marquee.innerHTML = marqueecontent + lb
+                                            actualheight = cross_marquee.offsetHeight
+                                            cross_marquee2.style.top = (parseInt(cross_marquee.style.top) + actualheight + 0) + "px" //indicates following #1
+                                        }
+                                        else if (document.layers) {
+                                            ns_marquee = document.ns_marquee.document.ns_marquee2
+                                            ns_marquee.top = parseInt(marqueeheight) + 0
+                                            ns_marquee.document.write(marqueecontent)
+                                            ns_marquee.document.close()
+                                            actualheight = ns_marquee.document.height
+                                        }
+                                        setTimeout('lefttime=setInterval("scrollmarquee()",25)', initPause)
+                                    }
+                                    window.onload = populate
+
+                                    function scrollmarquee() {
+
+                                        if (iedom) {
+                                            if (parseInt(cross_marquee.style.top) < (actualheight * (-1) + 0))
+                                                cross_marquee.style.top = (parseInt(cross_marquee2.style.top) + actualheight + 0) + "px"
+                                            if (parseInt(cross_marquee2.style.top) < (actualheight * (-1) + 0))
+                                                cross_marquee2.style.top = (parseInt(cross_marquee.style.top) + actualheight + 0) + "px"
+                                            cross_marquee2.style.top = parseInt(cross_marquee2.style.top) - copyspeed + "px"
+                                            cross_marquee.style.top = parseInt(cross_marquee.style.top) - copyspeed + "px"
+                                        }
+
+                                        else if (document.layers) {
+                                            if (ns_marquee.top > (actualheight * (-1) + 0))
+                                                ns_marquee.top -= copyspeed
+                                            else
+                                                ns_marquee.top = parseInt(marqueeheight) + 0
+                                        }
+                                    }
+
+                                    if (iedom || document.layers) {
+                                        with (document) {
+                                            if (iedom) {
+                                                write('<div style="position:relative;width:' + marqueewidth + ';height:' + marqueeheight + ';overflow:hidden" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">')
+                                                write('<div id="iemarquee" style="position:absolute;left:0px;top:0px;width:100%;">')
+                                                write('</div><div id="iemarquee2" style="position:absolute;left:0px;top:-0px;width:100%;z-index:100;">')
+                                                write('</div></div>')
+
+                                            }
+                                            else if (document.layers) {
+                                                write('<ilayer width=' + marqueewidth + ' height=' + marqueeheight + ' name="ns_marquee">')
+                                                write('<layer name="ns_marquee2" width=' + marqueewidth + ' height=' + marqueeheight + ' left=0 top=0 onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed"></layer>')
+                                                write('</ilayer>')
+                                            }
+                                        }
+                                    }
+                                </script>
                 </div><br /><br />
                  <div style="border:2px solid #54a5dd; border-style: dashed; padding:10px;">
                      <img src="images/tF.jpg" />
@@ -524,6 +568,9 @@
         })();</script>
     <script type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "beacon": "bam.nr-data.net", "licenseKey": "72d7dcce33", "applicationID": "1388850", "transactionName": "ZV1TZ0FTVkFVWkwKXlwXcFBHW1dcG3pXDUVXVkVwXFxMQFtVVAZDHVxYQENeWUs=", "queueTime": 0, "applicationTime": 1555, "atts": "SRpQEQlJRU8=", "errorBeacon": "bam.nr-data.net", "agent": "" }</script>
 </body>
+
+
+
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
 <!-- End Google Tag Manager -->

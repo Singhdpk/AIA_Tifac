@@ -23,7 +23,7 @@ The kit has been designed under the aegis of Automation Industry Association Cam
             system behavior.
         </div>
       </div>
-    </div>
+    </div><br />
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">
@@ -39,7 +39,7 @@ o	This setup is configured with industrial grade automation devices.  Students g
             Encoder, Speed / Frequency indicators, etc.
 </div>
       </div>
-    </div>
+    </div><br />
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">
@@ -54,18 +54,18 @@ o	This setup is configured with industrial grade automation devices.  Students g
             interactive touch screen based HMI helps students to simualte industry relevant case studies
 </div>
       </div>
-    </div>
+    </div><br />
      <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#motion">Motion Control technology learning station </a>
         </h3>
       </div>
-      <div id="collapse2" class="panel-collapse collapse">
+      <div id="motion" class="panel-collapse collapse">
         <div class="panel-body">Motion Control station is designed keeping in view a holistic approach to Generic Motion Control. Configured around B&R industrial grade automation devices. Students get to know about the operating principles, the physics, the applications, programming and control procedures of various motion control drives, such as Servo drive and Synchronous motor, Stepper drive and motor. Designed to be placed on a desk, it comes with
              an integrated Control and Display station with touch screen and I/O chassis, complete with cable sets.</div>
       </div>
-    </div>    
+    </div>   <br /> 
 <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">
@@ -81,7 +81,7 @@ o	This setup is configured with industrial grade automation devices.  Students g
             quality panel wiring with spring terminals.  
 			</div>
       </div>
-    </div>
+    </div><br />
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">
@@ -92,7 +92,6 @@ o	This setup is configured with industrial grade automation devices.  Students g
         <div class="panel-body">Integration Panel–2 comprises of few advanced options. It is provided with a Master Controller that can be configured to act as a local master or  remote master to any other controller in your lab network. It is handy for experiments related to energy monitoring, closed loop control, SCADA and discrete manufacturing . Integration Stand 2 also incorporates  electro 
             pneumatic components and Actuator Sensor Interface technology compatible with latest controller technology. </div>
       </div>
-    </div>
+    </div><br />
    
 </asp:Content>
-
